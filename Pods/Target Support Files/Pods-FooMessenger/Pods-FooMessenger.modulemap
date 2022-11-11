@@ -1,0 +1,6 @@
+framework module Pods_FooMessenger {
+  umbrella header "Pods-FooMessenger-umbrella.h"
+
+  export *
+  module * { export * }
+}
