@@ -7,19 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		581065F728F3BBC300F4907D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 581065F628F3BBC200F4907D /* GoogleService-Info.plist */; };
+		581065F928F3BC2400F4907D /* RegisterErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581065F828F3BC2400F4907D /* RegisterErrorModel.swift */; };
 		58AB654D28F386E6006CCF83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AB654C28F386E6006CCF83 /* AppDelegate.swift */; };
 		58AB654F28F386E6006CCF83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AB654E28F386E6006CCF83 /* SceneDelegate.swift */; };
 		58AB655628F386E8006CCF83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58AB655528F386E8006CCF83 /* Assets.xcassets */; };
 		58AB655928F386E8006CCF83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58AB655728F386E8006CCF83 /* LaunchScreen.storyboard */; };
+		58AB656228F387C5006CCF83 /* MessengerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AB656128F387C5006CCF83 /* MessengerViewController.swift */; };
+		58AB656A28F38837006CCF83 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AB656928F38837006CCF83 /* ContactsViewController.swift */; };
+		58AB656C28F3884E006CCF83 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AB656B28F3884E006CCF83 /* AccountViewController.swift */; };
+		58AB657528F388B8006CCF83 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AB657428F388B8006CCF83 /* ContactsViewModel.swift */; };
+		58AB657728F388C0006CCF83 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AB657628F388C0006CCF83 /* ContactsView.swift */; };
+		58AB657928F388CA006CCF83 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AB657828F388CA006CCF83 /* AccountView.swift */; };
+		58AB657B28F388D0006CCF83 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AB657A28F388D0006CCF83 /* AccountViewModel.swift */; };
+		58AB657D28F38900006CCF83 /* MessengerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AB657C28F38900006CCF83 /* MessengerViewModel.swift */; };
+		58AB657F28F38906006CCF83 /* MessengerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AB657E28F38906006CCF83 /* MessengerView.swift */; };
+		58AB658128F3892E006CCF83 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AB658028F3892E006CCF83 /* LoginViewController.swift */; };
+		58AB658328F3893C006CCF83 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AB658228F3893C006CCF83 /* RegisterViewController.swift */; };
+		58AB658728F38952006CCF83 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AB658628F38952006CCF83 /* RegisterViewModel.swift */; };
+		58AB658928F38957006CCF83 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AB658828F38957006CCF83 /* RegisterView.swift */; };
+		58AB658B28F3895C006CCF83 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AB658A28F3895C006CCF83 /* LoginViewModel.swift */; };
+		58AB658D28F38962006CCF83 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AB658C28F38962006CCF83 /* LoginView.swift */; };
+		58AB658F28F38988006CCF83 /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AB658E28F38988006CCF83 /* PhotoViewerViewController.swift */; };
+		58AB659128F3899F006CCF83 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AB659028F3899F006CCF83 /* VideoPlayerViewController.swift */; };
+		58AB659528F3A1B2006CCF83 /* GradientRegisterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AB659428F3A1B2006CCF83 /* GradientRegisterButton.swift */; };
+		58AB659928F3A39C006CCF83 /* GradientLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AB659828F3A39C006CCF83 /* GradientLoginButton.swift */; };
+		58AB659C28F3B6A7006CCF83 /* LoginErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AB659B28F3B6A7006CCF83 /* LoginErrorModel.swift */; };
+		C8EDD255F5092CD8DA04E048 /* Pods_FooMessenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36168A084982B48B8434923C /* Pods_FooMessenger.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36168A084982B48B8434923C /* Pods_FooMessenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FooMessenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		366A558B9E9EB285F78BB27A /* Pods-FooMessenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FooMessenger.release.xcconfig"; path = "Target Support Files/Pods-FooMessenger/Pods-FooMessenger.release.xcconfig"; sourceTree = "<group>"; };
+		4A4BCB414D89F60C2D03145C /* Pods-FooMessenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FooMessenger.debug.xcconfig"; path = "Target Support Files/Pods-FooMessenger/Pods-FooMessenger.debug.xcconfig"; sourceTree = "<group>"; };
+		581065F628F3BBC200F4907D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		581065F828F3BC2400F4907D /* RegisterErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterErrorModel.swift; sourceTree = "<group>"; };
 		58AB654928F386E6006CCF83 /* FooMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FooMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58AB654C28F386E6006CCF83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58AB654E28F386E6006CCF83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		58AB655528F386E8006CCF83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58AB655828F386E8006CCF83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58AB655A28F386E8006CCF83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58AB656128F387C5006CCF83 /* MessengerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerViewController.swift; sourceTree = "<group>"; };
+		58AB656928F38837006CCF83 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		58AB656B28F3884E006CCF83 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		58AB657428F388B8006CCF83 /* ContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewModel.swift; sourceTree = "<group>"; };
+		58AB657628F388C0006CCF83 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		58AB657828F388CA006CCF83 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		58AB657A28F388D0006CCF83 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		58AB657C28F38900006CCF83 /* MessengerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerViewModel.swift; sourceTree = "<group>"; };
+		58AB657E28F38906006CCF83 /* MessengerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerView.swift; sourceTree = "<group>"; };
+		58AB658028F3892E006CCF83 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		58AB658228F3893C006CCF83 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		58AB658628F38952006CCF83 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		58AB658828F38957006CCF83 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		58AB658A28F3895C006CCF83 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		58AB658C28F38962006CCF83 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		58AB658E28F38988006CCF83 /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		58AB659028F3899F006CCF83 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		58AB659428F3A1B2006CCF83 /* GradientRegisterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRegisterButton.swift; sourceTree = "<group>"; };
+		58AB659828F3A39C006CCF83 /* GradientLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientLoginButton.swift; sourceTree = "<group>"; };
+		58AB659B28F3B6A7006CCF83 /* LoginErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginErrorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +75,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8EDD255F5092CD8DA04E048 /* Pods_FooMessenger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		581065FA28F3D46900F4907D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		58AB654028F386E6006CCF83 = {
 			isa = PBXGroup;
 			children = (
 				58AB654B28F386E6006CCF83 /* FooMessenger */,
 				58AB654A28F386E6006CCF83 /* Products */,
+				953F34C3E52A9E37EEEB504A /* Pods */,
+				5E4227E8B34C942E0419B4DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,10 +110,17 @@
 		58AB654B28F386E6006CCF83 /* FooMessenger */ = {
 			isa = PBXGroup;
 			children = (
-				58AB656028F386F7006CCF83 /* Resources */,
-				58AB655528F386E8006CCF83 /* Assets.xcassets */,
-				58AB655728F386E8006CCF83 /* LaunchScreen.storyboard */,
 				58AB655A28F386E8006CCF83 /* Info.plist */,
+				581065F628F3BBC200F4907D /* GoogleService-Info.plist */,
+				58AB656028F386F7006CCF83 /* Resources */,
+				58AB656328F38800006CCF83 /* LaunchScreen */,
+				58AB659328F38A4C006CCF83 /* PhotoViewer */,
+				58AB659228F38A45006CCF83 /* VideoPlayer */,
+				58AB658528F38945006CCF83 /* Register */,
+				58AB658428F38941006CCF83 /* Login */,
+				58AB656D28F38851006CCF83 /* Account */,
+				58AB656E28F38855006CCF83 /* Contacts */,
+				58AB656428F3880B006CCF83 /* Messenger */,
 			);
 			path = FooMessenger;
 			sourceTree = "<group>";
@@ -63,10 +128,123 @@
 		58AB656028F386F7006CCF83 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				58AB655528F386E8006CCF83 /* Assets.xcassets */,
 				58AB654C28F386E6006CCF83 /* AppDelegate.swift */,
 				58AB654E28F386E6006CCF83 /* SceneDelegate.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		58AB656328F38800006CCF83 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				58AB655728F386E8006CCF83 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		58AB656428F3880B006CCF83 /* Messenger */ = {
+			isa = PBXGroup;
+			children = (
+				58AB656128F387C5006CCF83 /* MessengerViewController.swift */,
+				58AB657E28F38906006CCF83 /* MessengerView.swift */,
+				58AB657C28F38900006CCF83 /* MessengerViewModel.swift */,
+			);
+			path = Messenger;
+			sourceTree = "<group>";
+		};
+		58AB656D28F38851006CCF83 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				58AB656B28F3884E006CCF83 /* AccountViewController.swift */,
+				58AB657828F388CA006CCF83 /* AccountView.swift */,
+				58AB657A28F388D0006CCF83 /* AccountViewModel.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		58AB656E28F38855006CCF83 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				58AB656928F38837006CCF83 /* ContactsViewController.swift */,
+				58AB657628F388C0006CCF83 /* ContactsView.swift */,
+				58AB657428F388B8006CCF83 /* ContactsViewModel.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		58AB658428F38941006CCF83 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				58AB658028F3892E006CCF83 /* LoginViewController.swift */,
+				58AB658A28F3895C006CCF83 /* LoginViewModel.swift */,
+				58AB659B28F3B6A7006CCF83 /* LoginErrorModel.swift */,
+				58AB658C28F38962006CCF83 /* LoginView.swift */,
+				58AB659A28F3A519006CCF83 /* CustomUI */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		58AB658528F38945006CCF83 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				58AB658228F3893C006CCF83 /* RegisterViewController.swift */,
+				58AB658628F38952006CCF83 /* RegisterViewModel.swift */,
+				58AB658828F38957006CCF83 /* RegisterView.swift */,
+				581065F828F3BC2400F4907D /* RegisterErrorModel.swift */,
+				581065FA28F3D46900F4907D /* Extensions */,
+				58AB659728F3A387006CCF83 /* CustomUI */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		58AB659228F38A45006CCF83 /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				58AB659028F3899F006CCF83 /* VideoPlayerViewController.swift */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		58AB659328F38A4C006CCF83 /* PhotoViewer */ = {
+			isa = PBXGroup;
+			children = (
+				58AB658E28F38988006CCF83 /* PhotoViewerViewController.swift */,
+			);
+			path = PhotoViewer;
+			sourceTree = "<group>";
+		};
+		58AB659728F3A387006CCF83 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				58AB659428F3A1B2006CCF83 /* GradientRegisterButton.swift */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		58AB659A28F3A519006CCF83 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				58AB659828F3A39C006CCF83 /* GradientLoginButton.swift */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		5E4227E8B34C942E0419B4DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36168A084982B48B8434923C /* Pods_FooMessenger.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		953F34C3E52A9E37EEEB504A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A4BCB414D89F60C2D03145C /* Pods-FooMessenger.debug.xcconfig */,
+				366A558B9E9EB285F78BB27A /* Pods-FooMessenger.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -76,9 +254,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58AB655D28F386E8006CCF83 /* Build configuration list for PBXNativeTarget "FooMessenger" */;
 			buildPhases = (
+				7E15525D9BE0B518431338BB /* [CP] Check Pods Manifest.lock */,
 				58AB654528F386E6006CCF83 /* Sources */,
 				58AB654628F386E6006CCF83 /* Frameworks */,
 				58AB654728F386E6006CCF83 /* Resources */,
+				1B8A93BFA88E4B98BA5BE194 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,18 +309,82 @@
 			files = (
 				58AB655928F386E8006CCF83 /* LaunchScreen.storyboard in Resources */,
 				58AB655628F386E8006CCF83 /* Assets.xcassets in Resources */,
+				581065F728F3BBC300F4907D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B8A93BFA88E4B98BA5BE194 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FooMessenger/Pods-FooMessenger-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FooMessenger/Pods-FooMessenger-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FooMessenger/Pods-FooMessenger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E15525D9BE0B518431338BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FooMessenger-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		58AB654528F386E6006CCF83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58AB656228F387C5006CCF83 /* MessengerViewController.swift in Sources */,
+				58AB658728F38952006CCF83 /* RegisterViewModel.swift in Sources */,
 				58AB654D28F386E6006CCF83 /* AppDelegate.swift in Sources */,
+				58AB658128F3892E006CCF83 /* LoginViewController.swift in Sources */,
+				58AB657728F388C0006CCF83 /* ContactsView.swift in Sources */,
+				58AB657928F388CA006CCF83 /* AccountView.swift in Sources */,
+				58AB659128F3899F006CCF83 /* VideoPlayerViewController.swift in Sources */,
+				58AB657D28F38900006CCF83 /* MessengerViewModel.swift in Sources */,
+				58AB657F28F38906006CCF83 /* MessengerView.swift in Sources */,
+				58AB659C28F3B6A7006CCF83 /* LoginErrorModel.swift in Sources */,
+				58AB656C28F3884E006CCF83 /* AccountViewController.swift in Sources */,
+				58AB658328F3893C006CCF83 /* RegisterViewController.swift in Sources */,
+				58AB659928F3A39C006CCF83 /* GradientLoginButton.swift in Sources */,
 				58AB654F28F386E6006CCF83 /* SceneDelegate.swift in Sources */,
+				58AB657528F388B8006CCF83 /* ContactsViewModel.swift in Sources */,
+				58AB657B28F388D0006CCF83 /* AccountViewModel.swift in Sources */,
+				58AB658928F38957006CCF83 /* RegisterView.swift in Sources */,
+				58AB658F28F38988006CCF83 /* PhotoViewerViewController.swift in Sources */,
+				58AB658B28F3895C006CCF83 /* LoginViewModel.swift in Sources */,
+				58AB658D28F38962006CCF83 /* LoginView.swift in Sources */,
+				58AB659528F3A1B2006CCF83 /* GradientRegisterButton.swift in Sources */,
+				58AB656A28F38837006CCF83 /* ContactsViewController.swift in Sources */,
+				581065F928F3BC2400F4907D /* RegisterErrorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +518,7 @@
 		};
 		58AB655E28F386E8006CCF83 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A4BCB414D89F60C2D03145C /* Pods-FooMessenger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -283,8 +528,8 @@
 				INFOPLIST_FILE = FooMessenger/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,6 +545,7 @@
 		};
 		58AB655F28F386E8006CCF83 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 366A558B9E9EB285F78BB27A /* Pods-FooMessenger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,8 +555,8 @@
 				INFOPLIST_FILE = FooMessenger/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
