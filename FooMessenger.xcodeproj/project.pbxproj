@@ -82,13 +82,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		581065FA28F3D46900F4907D /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
 		58AB654028F386E6006CCF83 = {
 			isa = PBXGroup;
 			children = (
@@ -192,7 +185,6 @@
 				58AB658628F38952006CCF83 /* RegisterViewModel.swift */,
 				58AB658828F38957006CCF83 /* RegisterView.swift */,
 				581065F828F3BC2400F4907D /* RegisterErrorModel.swift */,
-				581065FA28F3D46900F4907D /* Extensions */,
 				58AB659728F3A387006CCF83 /* CustomUI */,
 			);
 			path = Register;
