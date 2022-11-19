@@ -35,7 +35,6 @@ class LoginViewModel {
             passwordLessThan6Completion()
         }
     }
-    
 }
  
  
