@@ -11,7 +11,7 @@ import FirebaseAuth
 import FirebaseFirestore
 
 class LoginViewModel {
-    
+  
     func authenticateLogin(
         with emailTextField: UITextField,
         with passwordTextField: UITextField,
