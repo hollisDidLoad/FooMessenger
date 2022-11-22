@@ -19,7 +19,7 @@ class LoginViewModel {
         missingParametersCompletion: @escaping (() -> Void),
         wrongParametersCompletion: @escaping () -> Void,
         passwordLessThan6Completion: @escaping () -> Void,
-        completion: @escaping (() -> Void)
+        completion: @escaping (() -> Void)  
     ) {
         guard let email = emailTextField.text, let password = passwordTextField.text, !email.isEmpty, !password.isEmpty else { return missingParametersCompletion() }
         if password.count >= 6 {
